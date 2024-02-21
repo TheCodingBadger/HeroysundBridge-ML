@@ -4,8 +4,7 @@ pandas== 2.1.1
 polars==0.19.8 
 scipy==1.11.3
 pyarrow==13.0.0
-ipykernel==6.26.0
 keras-tuner==1.4.5
-tensorflow==2.15.0
-nvidia-cudnn-cu12==8.9.4.25
+
+tensorflow == 2.15.0
 nvidia-cublas-cu12==12.2.5.6
