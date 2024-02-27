@@ -1,5 +1,5 @@
-import data_processing.mat2parquet as mat2parquet
-import data_processing.parquet_add_date as parquet_add_date
+import data_processing.modules.mat2parquet as mat2parquet
+import data_processing.modules.parquet_add_date as parquet_add_date
 import data_processing.parquet_avg as parquet_avg
 
 import os
@@ -8,11 +8,7 @@ import tensorflow as tf
 import polars as pl 
 
 # Get the assets folder
-main_file_directory = os.path.dirname(__file__)
-for _ in range(2): # Go up two levels
-    main_file_directory = os.path.dirname(main_file_directory)
-assets_folder = os.path.join(main_file_directory, 'HeroysundBridge-ML-Assets')
-
+asset_folder = os.path.abspath(os.path.join(os.getcwd(), '..', '..', '..', 'HeroysundBridge-ML-Assets'))
 
 # Inputs
 #year = "2023"
