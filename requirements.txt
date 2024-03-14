@@ -5,6 +5,8 @@ polars == 0.19.8
 scipy == 1.11.3
 pyarrow == 13.0.0
 keras-tuner == 1.4.5
-
+scikit-learn == 1.4.0
 tensorflow == 2.15.0
 nvidia-cublas-cu12 == 12.2.5.6
+statsmodels == 0.14.1
+pmdarima == 2.0.4 
