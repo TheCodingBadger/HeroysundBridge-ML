@@ -10,7 +10,7 @@ For more information or to request models and datasets, please contact:
 
 We will soon be unavailable through NTNU's email system, but you can reach us at the provided addresses.
 
-## TensorFlow-GPU Requirements
+## TensorFlow-GPU Requirements (NOTE: CODE CAN BE RUN WITHOUT HTIS REQUIREMENT)
 To run the code using TensorFlow-GPU, ensure that your system meets the following requirements:
 
 1. **CUDA-Capable Graphics Card**: Ensure that you have a compatible NVIDIA graphics card installed in your system.
