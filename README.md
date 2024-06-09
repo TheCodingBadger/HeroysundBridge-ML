@@ -1,19 +1,25 @@
-# HeroysundBridge-ML
-🔍 Master's Thesis project on using machine learning as a part of a SHM assesment on a damaged, post-tensioned bridge. 
+markdown
+
+# HerøysundBridge-ML
+🔍 Master's Thesis project on using machine learning as part of a Structural Health Monitoring (SHM) assessment on a damaged, post-tensioned bridge. This is an open-source file repository for the master's project "Machine Learning-Assisted Structural Health Monitoring of Herøysund Bridge". Models and datasets can be provided upon request.
+
+For more information or to request models and datasets, please contact:
+
+- Erling Husøy at [Erling.Husoy@multiconsult.no](mailto:Erling.Husoy@multiconsult.no)
+- Emil Steen at [Emil.steen@betonmast.no](mailto:Emil.steen@betonmast.no)
+
+We will soon be unavailable through NTNU's email system, but you can reach us at the provided addresses.
 
 ## TensorFlow-GPU Requirements
 To run the code using TensorFlow-GPU, ensure that your system meets the following requirements:
 
-1. CUDA-Capable Graphics Card: TensorFlow-GPU requires a CUDA-capable GPU for acceleration. Ensure that you have a compatible NVIDIA graphics card installed in your system.
+1. **CUDA-Capable Graphics Card**: Ensure that you have a compatible NVIDIA graphics card installed in your system.
 
-2. CUDA Toolkit: It is necessary to have the CUDA Toolkit installed on your system. TensorFlow-GPU interacts with the CUDA Toolkit to execute computations on the GPU. Make sure to install the version of the CUDA Toolkit that is compatible with your graphics card and TensorFlow version.
-
-3. The following NVIDIA® software are only required for GPU support (From: https://www.tensorflow.org/install/pip#software_requirements):
-
-    NVIDIA® GPU drivers version 450.80.02 or higher.
-        Note: Could be checked with command "nvidia-smi" in PowerrShell
-    CUDA® Toolkit 11.8.
-    cuDNN SDK 8.6.0.
+2. **Required NVIDIA® Software**:
+    - **NVIDIA® GPU drivers version 450.80.02 or higher**.
+        - Note: Can be checked with the command `nvidia-smi` in PowerShell.
+    - **CUDA® Toolkit 11.8**.
+    - **cuDNN SDK 8.6.0**.
 
 Without these requirements, TensorFlow-GPU will not be able to utilize the GPU for computations, and the code may fall back to CPU execution, leading to slower performance.
 
