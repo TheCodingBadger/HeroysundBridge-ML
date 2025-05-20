@@ -1,7 +1,7 @@
-markdown
-
 # HerøysundBridge-ML
 🔍 Master's Thesis project on using machine learning as part of a Structural Health Monitoring (SHM) assessment on a damaged, post-tensioned bridge. This is an open-source file repository for the master's project "Machine Learning-Assisted Structural Health Monitoring of Herøysund Bridge". Models and datasets can be provided upon request.
+
+Thesis is available at: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3155556
 
 For more information or to request models and datasets, please contact:
 
